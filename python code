@@ -1,0 +1,16 @@
+# finding pythogorean number
+from math import sqrt
+# a = int(input("enter number you wants to find "))
+# b = int(input("enter other number waants to find "))
+# c = sqrt(a**2 + b**2)
+# if c == sqrt(a**2 + b**2):
+#     print("yes c is pythogorrus number ",c)
+# else:
+#     print("your number is not a pythogorean number")
+# finding pythogorean number between given numbers
+n = int(input("please enter a number upto where you have to find pythogorean numbers"))
+for a in range(1, n+1):
+    for b in range(a, n):
+        c = int(sqrt(a ** 2 + b ** 2))
+        if (((c**2)-(a**2 + b**2)) == 0):
+         print("the pythogorean numbers are:",a,b,c)
