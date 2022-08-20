@@ -1,1 +1,1 @@
-# automatic-ticket-genertor
+# Pythogorean number finding
